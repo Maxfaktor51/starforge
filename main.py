@@ -10,7 +10,7 @@ while mode != "q":
     match mode:
         case "m":
             fancymaker.head()
-            print("Welcome to Starforge v0.3\n\nWhat would you like to do?")
+            print("Welcome to Starforge v0.42\n\nWhat would you like to do?")
             print(Fore.GREEN + "(n) - New Star")
             print(Fore.RED + "(q) - Quit")
             print(Style.RESET_ALL)
