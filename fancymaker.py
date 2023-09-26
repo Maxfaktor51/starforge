@@ -4,17 +4,27 @@ from collections import OrderedDict
 import os
 import tabulate
 
-def separator():
-    print(Style.RESET_ALL + "--------------------------------------------------------")
+def separator(mode):
+    if mode == "e":
+        print("--------------------------------------------------------")
+    else:
+        print(Style.RESET_ALL + "--------------------------------------------------------")
 
-def semi_separator():
-    print(Style.RESET_ALL + "----- ---- --- -- -")
+def semi_separator(mode):
+    if mode == "e":
+        print("----- ---- --- -- -")
+    else:
+        print(Style.RESET_ALL + "----- ---- --- -- -")
 
-def head():
-    print(Style.RESET_ALL)
-    os.system("cls||clear")
-    art.tprint("Starforge")
-    separator()
+def head(mode):
+    if mode == "e":
+        os.system("cls||clear")
+        art.tprint("Starforge")
+    else:
+        print(Style.RESET_ALL)
+        os.system("cls||clear")
+        art.tprint("Starforge")
+        separator(mode)
 
 def mainOptions():
     print(Fore.YELLOW + "(n)ew star (a)dd star " + Fore.BLUE + "(e)xport " + Fore.WHITE + "(m)enu " + Fore.RED + "(q)uit" + Style.RESET_ALL)

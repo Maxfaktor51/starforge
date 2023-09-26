@@ -1,11 +1,11 @@
 from colorama import Fore,Back,Style
 from tabulate import tabulate
-import math
 
+import math
 import fancymaker
 
-def getPlanets(life,seed,s_type,s_lumen,s_temp,s_name):
-    fancymaker.separator()
+def getPlanets(mode,life,seed,s_type,s_lumen,s_temp,s_name):
+    fancymaker.separator(mode)
 
     # Check if and how many planets the star can host
     match s_type[0]:
@@ -91,26 +91,18 @@ def getPlanets(life,seed,s_type,s_lumen,s_temp,s_name):
         p_grav = str(p_grav) + " G"
         p_temp = str(p_temp) + " K"
         
-        print(tabulate([["Name:",p_name],["Semi Major Axis",p_rads],["Orbital Period",p_prid],["Mass",p_mass],["Surface Gravity",p_grav],["Surface Temperature",p_temp],["Atmosphere",atmo],["Life",development]], tablefmt="presto"))
+        print(tabulate([["Name",p_name],["Semi Major Axis",p_rads],["Orbital Period",p_prid],["Mass",p_mass],["Surface Gravity",p_grav],["Surface Temperature",p_temp],["Atmosphere",atmo],["Life",development]], tablefmt="presto"))
         
 
         if n_planets != 1:
-            fancymaker.semi_separator()
+            fancymaker.semi_separator(mode)
         
         i += 1
         n_planets -= 1
 
-def getStarData(mode):
-    if mode == "n":
-        fancymaker.head()
-
-    # Get star coordinates
-    Xcoord = int(input("Enter the X coordinate of your star:" + Fore.YELLOW + " "))
-    Ycoord = int(input(Fore.RESET + "Enter the Y coordinate of your star:" + Fore.YELLOW + " "))
-    fancymaker.separator()
-
+def getStarData(mode,Xcoord,Ycoord,realm):
     # Seed generation
-    seed = Xcoord*Ycoord + Ycoord
+    seed = Xcoord*Ycoord + Ycoord + realm
     s_lvl = seed % 9
 
     # Define star age in percent
@@ -243,7 +235,12 @@ def getStarData(mode):
         s_rads = str(round(s_rads, 2)) + " Solar Radii"
         s_temp = str(int(s_temp)) + " K"
         s_lumen = str(round(s_lumen, 2)) + " x Solar Luminosity"
-    print(Fore.YELLOW + tabulate([["Name",s_name],["Mass",s_mass],["Radius",s_rads],["Temperature",s_temp],["Luminosity",s_lumen]], tablefmt="presto"))
+    if mode == "e":
+        print(tabulate([["Name",s_name],["Mass",s_mass],["Radius",s_rads],["Temperature",s_temp],["Luminosity",s_lumen]], tablefmt="presto"))
+    else:
+        print(Fore.YELLOW + tabulate([["Star",s_name],["Mass",s_mass],["Radius",s_rads],["Temperature",s_temp],["Luminosity",s_lumen]], tablefmt="presto"))
 
     # Generate Planets for this star
-    getPlanets(life,seed,s_type,luminosity,temperature,s_name)
+    getPlanets(mode,life,seed,s_type,luminosity,temperature,s_name)
+
+    return s_name
