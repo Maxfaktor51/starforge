@@ -17,6 +17,7 @@ def getPlanets(mode,life,seed,s_type,s_lumen,s_temp,s_name):
             n_planets = 3 + seed % 6
         case _:
             n_planets = 0
+            development = "None"
     
     # Iterate through number of Planets and print their details 
     i = 0
@@ -99,6 +100,7 @@ def getPlanets(mode,life,seed,s_type,s_lumen,s_temp,s_name):
         
         i += 1
         n_planets -= 1
+    return development
 
 def getStarData(mode,Xcoord,Ycoord,realm):
     # Seed generation
@@ -119,7 +121,7 @@ def getStarData(mode,Xcoord,Ycoord,realm):
             s_mass = "unknown"
             s_rads = "unknown"
         case _:                 # Further classification of Main Sequence Star
-            match seed % 29:
+            match seed % 28:
                 case 0:
                     s_type = "O" + str(s_lvl)
                     s_temp = 40000 + 40000 * (s_lvl/10)
@@ -135,22 +137,22 @@ def getStarData(mode,Xcoord,Ycoord,realm):
                     s_temp = 8500 + 11500 * (s_lvl/10)
                     s_mass = 2.0 + 8 * (s_lvl/10)
                     s_rads = 1.7 + 3.3 * (s_lvl/10)
-                case 3|9|14|19:
+                case 3|9|14|18:
                     s_type = "F" + str(s_lvl)
                     s_temp = 6500 + 1500 * (s_lvl/10)
                     s_mass = 1.5 + 0.5 * (s_lvl/10)
                     s_rads = 1.3 + 0.4 * (s_lvl/10)
-                case 4|10|15|20|23:
+                case 4|10|15|19|22:
                     s_type = "G" + str(s_lvl)
                     s_temp = 5700 + 800 * (s_lvl/10)
                     s_mass = 1.0 + 0.5 * (s_lvl/10)
                     s_rads = 1 + 0.3 * (s_lvl/10)
-                case 5|11|16|21|24|26:
+                case 5|11|16|20|23|25:
                     s_type = "K" + str(s_lvl)
                     s_temp = 4500 + 1200 * (s_lvl/10)
                     s_mass = 0.7 + 0.3 * (s_lvl/10)
                     s_rads = 0.8 + 0.2 * (s_lvl/10)
-                case 6|12|17|22|25|27|28:
+                case 6|12|17|21|24|26|27:
                     s_type = "M" + str(s_lvl)
                     s_temp = 3200 + 1300 * (s_lvl/10)
                     s_mass = 0.2 + 0.5 * (s_lvl/10)
@@ -241,6 +243,9 @@ def getStarData(mode,Xcoord,Ycoord,realm):
         print(Fore.YELLOW + tabulate([["Star",s_name],["Mass",s_mass],["Radius",s_rads],["Temperature",s_temp],["Luminosity",s_lumen]], tablefmt="presto"))
 
     # Generate Planets for this star
-    getPlanets(mode,life,seed,s_type,luminosity,temperature,s_name)
-
-    return s_name
+    if mode == "s":
+        development = getPlanets(mode,life,seed,s_type,luminosity,temperature,s_name)
+        return development
+    else:
+        development = getPlanets(mode,life,seed,s_type,luminosity,temperature,s_name)
+        return s_name

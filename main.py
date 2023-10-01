@@ -22,8 +22,8 @@ while mode != "q":
         case "n":
             print("Realm ID: " + str(realm))
             fancymaker.head("n")
-            starQueueX[n] = int(input("Enter the X coordinate of your star:" + Fore.YELLOW + " "))
-            starQueueY[n] = int(input(Fore.RESET + "Enter the Y coordinate of your star:" + Fore.YELLOW + " "))
+            starQueueX[0] = int(input("Enter the X coordinate of your star:" + Fore.YELLOW + " "))
+            starQueueY[0] = int(input(Fore.RESET + "Enter the Y coordinate of your star:" + Fore.YELLOW + " "))
             n += 1
             fancymaker.separator("n")
             newStar = stargen.getStarData("n",starQueueX[0],starQueueY[0],realm)
@@ -61,6 +61,25 @@ while mode != "q":
             print(Fore.GREEN + "Success!")
             print(Fore.GREEN + "(n)ew Star " + Fore.YELLOW + "(m)enu " + Fore.RED + "(q)uit")
             print(Style.RESET_ALL)
+        case "s":
+            imin = int(input("Please enter search lower bound X:" + Fore.YELLOW + " "))
+            jmin = int(input(Fore.RESET + "Please enter search lower bound Y:" + Fore.YELLOW + " "))
+            imax = int(input(Fore.RESET + "Please enter search upper bound X:" + Fore.YELLOW + " "))
+            jmax = int(input(Fore.RESET + "Please enter search upper bound Y:" + Fore.YELLOW + " "))
+            newStar = "SETI-" + str(imin) + "-" + str(jmin) + "_" + str(imax) + "-" + str(jmax)
+            i = jmin
+            j = jmin
+            while i <= imax:
+                while j <= jmax:
+                    development = stargen.getStarData("s",i,j,realm)
+                    if development == "Spacefaring":
+                        starQueueX.append(i)
+                        starQueueY.append(j)
+                    else:
+                        print("No life found in " + str(i) + " " + str(j))
+                    j += 1
+                j = jmin
+                i += 1
  
     mode = input()
     fancymaker.separator(mode)
