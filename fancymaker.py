@@ -2,7 +2,6 @@ import art
 from colorama import Fore,Back,Style
 from collections import OrderedDict
 import os
-import tabulate
 
 def separator(mode):
     if mode == "e":

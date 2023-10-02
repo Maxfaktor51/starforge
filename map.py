@@ -1,5 +1,3 @@
-import math
-
 def starMap(realm,xCentre,yCentre,viewSize):
 
     # Initialize variables
