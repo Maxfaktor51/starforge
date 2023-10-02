@@ -1,0 +1,1433 @@
+ ____   _                  __                           
+/ ___| | |_   __ _  _ __  / _|  ___   _ __   __ _   ___ 
+\___ \ | __| / _` || '__|| |_  / _ \ | '__| / _` | / _ \
+ ___) || |_ | (_| || |   |  _|| (_) || |   | (_| ||  __/
+|____/  \__| \__,_||_|   |_|   \___/ |_|    \__, | \___|
+                                            |___/       
+
+Realm ID: 42
+--------------------------------------------------------
+ Name        | F4IV.415.62
+ Mass        | 1.7 Solar Masses
+ Radius      | 1.46 Solar Radii
+ Temperature | 7100 K
+ Luminosity  | 2.2 x Solar Luminosity
+--------------------------------------------------------
+ Name                | F4IV.415.62-I Dwarf Planet
+ Semi Major Axis     | 1.4 AU
+ Orbital Period      | 1.66 Terran Years
+ Mass                | 0.45 Terran Masses
+ Surface Gravity     | 0.5 G
+ Surface Temperature | 319 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.415.62-II Earthlike World
+ Semi Major Axis     | 1.5 AU
+ Orbital Period      | 1.84 Terran Years
+ Mass                | 0.64 Terran Masses
+ Surface Gravity     | 0.45 G
+ Surface Temperature | 320 K
+ Atmosphere          | Poisonous
+ Life                | Molecular
+----- ---- --- -- -
+ Name                | F4IV.415.62-III Earthlike World
+ Semi Major Axis     | 2.1 AU
+ Orbital Period      | 3.04 Terran Years
+ Mass                | 1.02 Terran Masses
+ Surface Gravity     | 1.02 G
+ Surface Temperature | 311 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.415.62-IV Earthlike World
+ Semi Major Axis     | 4.7 AU
+ Orbital Period      | 10.19 Terran Years
+ Mass                | 2.02 Terran Masses
+ Surface Gravity     | 2.63 G
+ Surface Temperature | 276 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.415.62-V Earthlike World
+ Semi Major Axis     | 8.3 AU
+ Orbital Period      | 23.91 Terran Years
+ Mass                | 3.51 Terran Masses
+ Surface Gravity     | 3.16 G
+ Surface Temperature | 254 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.415.62-VI Barren World
+ Semi Major Axis     | 16.9 AU
+ Orbital Period      | 69.48 Terran Years
+ Mass                | 6.82 Terran Masses
+ Surface Gravity     | 8.18 G
+ Surface Temperature | 248 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.415.62-VII Gas Giant
+ Semi Major Axis     | 32.5 AU
+ Orbital Period      | 185.28 Terran Years
+ Mass                | 14.22 Terran Masses
+ Surface Gravity     | 11.38 G
+ Surface Temperature | 326 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M3IV.416.62
+ Mass        | 0.35 Solar Masses
+ Radius      | 0.45 Solar Radii
+ Temperature | 3590 K
+ Luminosity  | 1.9 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M3IV.416.62-I Dwarf Planet
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 0.33 Terran Masses
+ Surface Gravity     | 0.43 G
+ Surface Temperature | 139 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | K8V.420.62
+ Mass        | 0.94 Solar Masses
+ Radius      | 0.96 Solar Radii
+ Temperature | 5460 K
+ Luminosity  | 0.84 x Solar Luminosity
+--------------------------------------------------------
+ Name                | K8V.420.62-I Dwarf Planet
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 0.35 Terran Masses
+ Surface Gravity     | 0.42 G
+ Surface Temperature | 306 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | O6II.413.63
+ Mass        | 62.0 Solar Masses
+ Radius      | 22.0 Solar Radii
+ Temperature | 64000 K
+ Luminosity  | 608.0 x Solar Luminosity
+--------------------------------------------------------
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | B6II.414.63
+ Mass        | 34.0 Solar Masses
+ Radius      | 8.0 Solar Radii
+ Temperature | 32000 K
+ Luminosity  | 608.0 x Solar Luminosity
+--------------------------------------------------------
+ Name                | B6II.414.63-I Dwarf Planet
+ Semi Major Axis     | 0.8 AU
+ Orbital Period      | 0.72 Terran Years
+ Mass                | 0.3 Terran Masses
+ Surface Gravity     | 0.21 G
+ Surface Temperature | 1191 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | B6II.414.63-II Hellworld
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.53 Terran Masses
+ Surface Gravity     | 1.07 G
+ Surface Temperature | 1123 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M6V.420.63
+ Mass        | 0.5 Solar Masses
+ Radius      | 0.6 Solar Radii
+ Temperature | 3980 K
+ Luminosity  | 0.68 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M6V.420.63-I Dwarf Planet
+ Semi Major Axis     | 0.2 AU
+ Orbital Period      | 0.09 Terran Years
+ Mass                | 0.15 Terran Masses
+ Surface Gravity     | 0.1 G
+ Surface Temperature | 157 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | M6V.420.63-II Barren World
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 1.33 Terran Masses
+ Surface Gravity     | 0.93 G
+ Surface Temperature | 157 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M6V.424.63
+ Mass        | 0.5 Solar Masses
+ Radius      | 0.6 Solar Radii
+ Temperature | 3980 K
+ Luminosity  | 0.68 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M6V.424.63-I Dwarf Planet
+ Semi Major Axis     | 0.8 AU
+ Orbital Period      | 0.72 Terran Years
+ Mass                | 0.3 Terran Masses
+ Surface Gravity     | 0.21 G
+ Surface Temperature | 150 K
+ Atmosphere          | Nonexistent
+ Life                | Complex
+----- ---- --- -- -
+ Name                | M6V.424.63-II Barren World
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.53 Terran Masses
+ Surface Gravity     | 1.07 G
+ Surface Temperature | 150 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | B6III.426.63
+ Mass        | 34.0 Solar Masses
+ Radius      | 8.0 Solar Radii
+ Temperature | 32000 K
+ Luminosity  | 13.6 x Solar Luminosity
+--------------------------------------------------------
+ Name                | B6III.426.63-I Dwarf Planet
+ Semi Major Axis     | 1.1 AU
+ Orbital Period      | 1.15 Terran Years
+ Mass                | 0.38 Terran Masses
+ Surface Gravity     | 0.27 G
+ Surface Temperature | 1161 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | B6III.426.63-II Hellworld
+ Semi Major Axis     | 1.6 AU
+ Orbital Period      | 2.02 Terran Years
+ Mass                | 1.5 Terran Masses
+ Surface Gravity     | 1.05 G
+ Surface Temperature | 1136 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | G4IV.420.64
+ Mass        | 1.2 Solar Masses
+ Radius      | 1.12 Solar Radii
+ Temperature | 6020 K
+ Luminosity  | 2.2 x Solar Luminosity
+--------------------------------------------------------
+ Name                | G4IV.420.64-I Dwarf Planet
+ Semi Major Axis     | 0.7 AU
+ Orbital Period      | 0.59 Terran Years
+ Mass                | 0.28 Terran Masses
+ Surface Gravity     | 0.34 G
+ Surface Temperature | 286 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | G4IV.420.64-II Earthlike World
+ Semi Major Axis     | 1.3 AU
+ Orbital Period      | 1.48 Terran Years
+ Mass                | 0.76 Terran Masses
+ Surface Gravity     | 0.84 G
+ Surface Temperature | 281 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G4IV.420.64-III Earthlike World
+ Semi Major Axis     | 1.1 AU
+ Orbital Period      | 1.15 Terran Years
+ Mass                | 1.38 Terran Masses
+ Surface Gravity     | 1.38 G
+ Surface Temperature | 297 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G4IV.420.64-IV Earthlike World
+ Semi Major Axis     | 2.3 AU
+ Orbital Period      | 3.49 Terran Years
+ Mass                | 3.67 Terran Masses
+ Surface Gravity     | 3.3 G
+ Surface Temperature | 311 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | G6IV.422.64
+ Mass        | 1.3 Solar Masses
+ Radius      | 1.18 Solar Radii
+ Temperature | 6180 K
+ Luminosity  | 2.8 x Solar Luminosity
+--------------------------------------------------------
+ Name                | G6IV.422.64-I Dwarf Planet
+ Semi Major Axis     | 1.2 AU
+ Orbital Period      | 1.31 Terran Years
+ Mass                | 0.4 Terran Masses
+ Surface Gravity     | 0.32 G
+ Surface Temperature | 224 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.64-II Barren World
+ Semi Major Axis     | 1.3 AU
+ Orbital Period      | 1.48 Terran Years
+ Mass                | 0.76 Terran Masses
+ Surface Gravity     | 0.91 G
+ Surface Temperature | 224 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.64-III Barren World
+ Semi Major Axis     | 2.9 AU
+ Orbital Period      | 4.94 Terran Years
+ Mass                | 1.83 Terran Masses
+ Surface Gravity     | 1.65 G
+ Surface Temperature | 205 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.64-IV Barren World
+ Semi Major Axis     | 4.5 AU
+ Orbital Period      | 9.55 Terran Years
+ Mass                | 4.22 Terran Masses
+ Surface Gravity     | 5.49 G
+ Surface Temperature | 200 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | K8V.414.65
+ Mass        | 0.94 Solar Masses
+ Radius      | 0.96 Solar Radii
+ Temperature | 5460 K
+ Luminosity  | 0.84 x Solar Luminosity
+--------------------------------------------------------
+ Name                | K8V.414.65-I Dwarf Planet
+ Semi Major Axis     | 0.8 AU
+ Orbital Period      | 0.72 Terran Years
+ Mass                | 0.3 Terran Masses
+ Surface Gravity     | 0.36 G
+ Surface Temperature | 306 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | K8V.414.65-II Earthlike World
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.53 Terran Masses
+ Surface Gravity     | 1.22 G
+ Surface Temperature | 294 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | G3IV.416.65
+ Mass        | 1.15 Solar Masses
+ Radius      | 1.09 Solar Radii
+ Temperature | 5940 K
+ Luminosity  | 1.9 x Solar Luminosity
+--------------------------------------------------------
+ Name                | G3IV.416.65-I Dwarf Planet
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 0.33 Terran Masses
+ Surface Gravity     | 0.43 G
+ Surface Temperature | 226 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | G3IV.416.65-II Barren World
+ Semi Major Axis     | 1.8 AU
+ Orbital Period      | 2.41 Terran Years
+ Mass                | 0.8 Terran Masses
+ Surface Gravity     | 0.96 G
+ Surface Temperature | 221 K
+ Atmosphere          | Breathable
+ Life                | None
+----- ---- --- -- -
+ Name                | G3IV.416.65-III Barren World
+ Semi Major Axis     | 2.9 AU
+ Orbital Period      | 4.94 Terran Years
+ Mass                | 1.49 Terran Masses
+ Surface Gravity     | 1.64 G
+ Surface Temperature | 220 K
+ Atmosphere          | Breathable
+ Life                | None
+----- ---- --- -- -
+ Name                | G3IV.416.65-IV Barren World
+ Semi Major Axis     | 8.6 AU
+ Orbital Period      | 25.22 Terran Years
+ Mass                | 3.75 Terran Masses
+ Surface Gravity     | 3.75 G
+ Surface Temperature | 217 K
+ Atmosphere          | Breathable
+ Life                | None
+----- ---- --- -- -
+ Name                | G3IV.416.65-V Gas Giant
+ Semi Major Axis     | 25.1 AU
+ Orbital Period      | 125.75 Terran Years
+ Mass                | 10.38 Terran Masses
+ Surface Gravity     | 9.34 G
+ Surface Temperature | 312 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | K7V.418.65
+ Mass        | 0.91 Solar Masses
+ Radius      | 0.94 Solar Radii
+ Temperature | 5340 K
+ Luminosity  | 0.76 x Solar Luminosity
+--------------------------------------------------------
+ Name                | K7V.418.65-I Dwarf Planet
+ Semi Major Axis     | 0.8 AU
+ Orbital Period      | 0.72 Terran Years
+ Mass                | 0.3 Terran Masses
+ Surface Gravity     | 0.24 G
+ Surface Temperature | 251 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | K7V.418.65-II Earthlike World
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.53 Terran Masses
+ Surface Gravity     | 1.53 G
+ Surface Temperature | 250 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | A6IV.422.65
+ Mass        | 6.8 Solar Masses
+ Radius      | 3.68 Solar Radii
+ Temperature | 15400 K
+ Luminosity  | 2.8 x Solar Luminosity
+--------------------------------------------------------
+ Name                | A6IV.422.65-I Dwarf Planet
+ Semi Major Axis     | 0.5 AU
+ Orbital Period      | 0.35 Terran Years
+ Mass                | 0.23 Terran Masses
+ Surface Gravity     | 0.23 G
+ Surface Temperature | 591 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | A6IV.422.65-II Scorched World
+ Semi Major Axis     | 1.4 AU
+ Orbital Period      | 1.66 Terran Years
+ Mass                | 0.95 Terran Masses
+ Surface Gravity     | 1.04 G
+ Surface Temperature | 559 K
+ Atmosphere          | Breathable
+ Life                | None
+----- ---- --- -- -
+ Name                | A6IV.422.65-III Scorched World
+ Semi Major Axis     | 3.5 AU
+ Orbital Period      | 6.55 Terran Years
+ Mass                | 2.98 Terran Masses
+ Surface Gravity     | 3.58 G
+ Surface Temperature | 512 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M5IV.426.65
+ Mass        | 0.45 Solar Masses
+ Radius      | 0.55 Solar Radii
+ Temperature | 3850 K
+ Luminosity  | 2.5 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M5IV.426.65-I Dwarf Planet
+ Semi Major Axis     | 0.8 AU
+ Orbital Period      | 0.72 Terran Years
+ Mass                | 0.3 Terran Masses
+ Surface Gravity     | 0.21 G
+ Surface Temperature | 221 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | M5IV.426.65-II Barren World
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.53 Terran Masses
+ Surface Gravity     | 1.07 G
+ Surface Temperature | 234 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | G6IV.413.66
+ Mass        | 1.3 Solar Masses
+ Radius      | 1.18 Solar Radii
+ Temperature | 6180 K
+ Luminosity  | 2.8 x Solar Luminosity
+--------------------------------------------------------
+ Name                | G6IV.413.66-I Dwarf Planet
+ Semi Major Axis     | 0.7 AU
+ Orbital Period      | 0.59 Terran Years
+ Mass                | 0.28 Terran Masses
+ Surface Gravity     | 0.22 G
+ Surface Temperature | 233 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.413.66-II Barren World
+ Semi Major Axis     | 1.3 AU
+ Orbital Period      | 1.48 Terran Years
+ Mass                | 0.76 Terran Masses
+ Surface Gravity     | 0.91 G
+ Surface Temperature | 225 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.413.66-III Barren World
+ Semi Major Axis     | 1.1 AU
+ Orbital Period      | 1.15 Terran Years
+ Mass                | 1.38 Terran Masses
+ Surface Gravity     | 1.24 G
+ Surface Temperature | 234 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.413.66-IV Barren World
+ Semi Major Axis     | 2.3 AU
+ Orbital Period      | 3.49 Terran Years
+ Mass                | 3.67 Terran Masses
+ Surface Gravity     | 4.77 G
+ Surface Temperature | 231 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M6V.416.66
+ Mass        | 0.5 Solar Masses
+ Radius      | 0.6 Solar Radii
+ Temperature | 3980 K
+ Luminosity  | 0.68 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M6V.416.66-I Dwarf Planet
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 0.35 Terran Masses
+ Surface Gravity     | 0.35 G
+ Surface Temperature | 147 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | G3III.418.66
+ Mass        | 1.15 Solar Masses
+ Radius      | 1.09 Solar Radii
+ Temperature | 5940 K
+ Luminosity  | 8.8 x Solar Luminosity
+--------------------------------------------------------
+ Name                | G3III.418.66-I Dwarf Planet
+ Semi Major Axis     | 0.5 AU
+ Orbital Period      | 0.35 Terran Years
+ Mass                | 0.23 Terran Masses
+ Surface Gravity     | 0.28 G
+ Surface Temperature | 232 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | G3III.418.66-II Barren World
+ Semi Major Axis     | 1.1 AU
+ Orbital Period      | 1.15 Terran Years
+ Mass                | 1.38 Terran Masses
+ Surface Gravity     | 1.1 G
+ Surface Temperature | 246 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M5V.415.67
+ Mass        | 0.45 Solar Masses
+ Radius      | 0.55 Solar Radii
+ Temperature | 3850 K
+ Luminosity  | 0.6 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M5V.415.67-I Dwarf Planet
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 0.35 Terran Masses
+ Surface Gravity     | 0.35 G
+ Surface Temperature | 212 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | F8IV.418.67
+ Mass        | 1.9 Solar Masses
+ Radius      | 1.62 Solar Radii
+ Temperature | 7700 K
+ Luminosity  | 3.4 x Solar Luminosity
+--------------------------------------------------------
+ Name                | F8IV.418.67-I Dwarf Planet
+ Semi Major Axis     | 0.2 AU
+ Orbital Period      | 0.09 Terran Years
+ Mass                | 0.15 Terran Masses
+ Surface Gravity     | 0.19 G
+ Surface Temperature | 454 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | F8IV.418.67-II Dwarf Planet
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 0.47 Terran Masses
+ Surface Gravity     | 0.47 G
+ Surface Temperature | 427 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | F8IV.418.67-III Scorched World
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 0.68 Terran Masses
+ Surface Gravity     | 0.48 G
+ Surface Temperature | 426 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F8IV.418.67-IV Barren World
+ Semi Major Axis     | 3.3 AU
+ Orbital Period      | 5.99 Terran Years
+ Mass                | 1.52 Terran Masses
+ Surface Gravity     | 1.67 G
+ Surface Temperature | 359 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F8IV.418.67-V Earthlike World
+ Semi Major Axis     | 8.2 AU
+ Orbital Period      | 23.48 Terran Years
+ Mass                | 3.15 Terran Masses
+ Surface Gravity     | 2.52 G
+ Surface Temperature | 278 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F8IV.418.67-VI Barren World
+ Semi Major Axis     | 24.9 AU
+ Orbital Period      | 124.25 Terran Years
+ Mass                | 7.99 Terran Masses
+ Surface Gravity     | 9.59 G
+ Surface Temperature | 193 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F8IV.418.67-VII Gas Giant
+ Semi Major Axis     | 73.0 AU
+ Orbital Period      | 623.71 Terran Years
+ Mass                | 21.35 Terran Masses
+ Surface Gravity     | 19.21 G
+ Surface Temperature | 216 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F8IV.418.67-VIII Gas Giant
+ Semi Major Axis     | 219.3 AU
+ Orbital Period      | 3247.57 Terran Years
+ Mass                | 61.93 Terran Masses
+ Surface Gravity     | 80.51 G
+ Surface Temperature | 485 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | G6IV.422.67
+ Mass        | 1.3 Solar Masses
+ Radius      | 1.18 Solar Radii
+ Temperature | 6180 K
+ Luminosity  | 2.8 x Solar Luminosity
+--------------------------------------------------------
+ Name                | G6IV.422.67-I Dwarf Planet
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 0.35 Terran Masses
+ Surface Gravity     | 0.31 G
+ Surface Temperature | 231 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.67-II Barren World
+ Semi Major Axis     | 1.5 AU
+ Orbital Period      | 1.84 Terran Years
+ Mass                | 0.72 Terran Masses
+ Surface Gravity     | 0.79 G
+ Surface Temperature | 227 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.67-III Barren World
+ Semi Major Axis     | 4.6 AU
+ Orbital Period      | 9.87 Terran Years
+ Mass                | 1.92 Terran Masses
+ Surface Gravity     | 2.5 G
+ Surface Temperature | 201 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.67-IV Barren World
+ Semi Major Axis     | 11.5 AU
+ Orbital Period      | 39.0 Terran Years
+ Mass                | 4.47 Terran Masses
+ Surface Gravity     | 3.58 G
+ Surface Temperature | 189 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.67-V Gas Giant
+ Semi Major Axis     | 32.8 AU
+ Orbital Period      | 187.85 Terran Years
+ Mass                | 12.3 Terran Masses
+ Surface Gravity     | 12.3 G
+ Surface Temperature | 261 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M6IV.413.68
+ Mass        | 0.5 Solar Masses
+ Radius      | 0.6 Solar Radii
+ Temperature | 3980 K
+ Luminosity  | 2.8 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M6IV.413.68-I Dwarf Planet
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 0.35 Terran Masses
+ Surface Gravity     | 0.35 G
+ Surface Temperature | 152 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | F8IV.417.68
+ Mass        | 1.9 Solar Masses
+ Radius      | 1.62 Solar Radii
+ Temperature | 7700 K
+ Luminosity  | 3.4 x Solar Luminosity
+--------------------------------------------------------
+ Name                | F8IV.417.68-I Dwarf Planet
+ Semi Major Axis     | 0.3 AU
+ Orbital Period      | 0.16 Terran Years
+ Mass                | 0.17 Terran Masses
+ Surface Gravity     | 0.17 G
+ Surface Temperature | 450 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | F8IV.417.68-II Scorched World
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 0.57 Terran Masses
+ Surface Gravity     | 0.74 G
+ Surface Temperature | 428 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | F8IV.417.68-III Scorched World
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.19 Terran Masses
+ Surface Gravity     | 1.07 G
+ Surface Temperature | 405 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F8IV.417.68-IV Scorched World
+ Semi Major Axis     | 1.9 AU
+ Orbital Period      | 2.62 Terran Years
+ Mass                | 2.08 Terran Masses
+ Surface Gravity     | 2.5 G
+ Surface Temperature | 405 K
+ Atmosphere          | Poisonous
+ Life                | Complex
+----- ---- --- -- -
+ Name                | F8IV.417.68-V Barren World
+ Semi Major Axis     | 3.9 AU
+ Orbital Period      | 7.7 Terran Years
+ Mass                | 5.07 Terran Masses
+ Surface Gravity     | 4.06 G
+ Surface Temperature | 374 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | A4IV.418.68
+ Mass        | 5.2 Solar Masses
+ Radius      | 3.02 Solar Radii
+ Temperature | 13100 K
+ Luminosity  | 2.2 x Solar Luminosity
+--------------------------------------------------------
+ Name                | A4IV.418.68-I Dwarf Planet
+ Semi Major Axis     | 1.2 AU
+ Orbital Period      | 1.31 Terran Years
+ Mass                | 0.4 Terran Masses
+ Surface Gravity     | 0.4 G
+ Surface Temperature | 592 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | A4IV.418.68-II Scorched World
+ Semi Major Axis     | 1.3 AU
+ Orbital Period      | 1.48 Terran Years
+ Mass                | 0.76 Terran Masses
+ Surface Gravity     | 0.61 G
+ Surface Temperature | 593 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | A4IV.418.68-III Scorched World
+ Semi Major Axis     | 2.9 AU
+ Orbital Period      | 4.94 Terran Years
+ Mass                | 1.83 Terran Masses
+ Surface Gravity     | 2.38 G
+ Surface Temperature | 539 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | A4IV.418.68-IV Scorched World
+ Semi Major Axis     | 4.5 AU
+ Orbital Period      | 9.55 Terran Years
+ Mass                | 4.22 Terran Masses
+ Surface Gravity     | 4.64 G
+ Surface Temperature | 524 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M4V.427.68
+ Mass        | 0.4 Solar Masses
+ Radius      | 0.5 Solar Radii
+ Temperature | 3720 K
+ Luminosity  | 0.52 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M4V.427.68-I Dwarf Planet
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 0.33 Terran Masses
+ Surface Gravity     | 0.33 G
+ Surface Temperature | 178 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | K3V.414.69
+ Mass        | 0.79 Solar Masses
+ Radius      | 0.86 Solar Radii
+ Temperature | 4860 K
+ Luminosity  | 0.44 x Solar Luminosity
+--------------------------------------------------------
+ Name                | K3V.414.69-I Dwarf Planet
+ Semi Major Axis     | 0.8 AU
+ Orbital Period      | 0.72 Terran Years
+ Mass                | 0.3 Terran Masses
+ Surface Gravity     | 0.24 G
+ Surface Temperature | 184 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | K3V.414.69-II Barren World
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.53 Terran Masses
+ Surface Gravity     | 1.53 G
+ Surface Temperature | 188 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | K3V.417.69
+ Mass        | 0.79 Solar Masses
+ Radius      | 0.86 Solar Radii
+ Temperature | 4860 K
+ Luminosity  | 0.44 x Solar Luminosity
+--------------------------------------------------------
+ Name                | K3V.417.69-I Dwarf Planet
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 0.35 Terran Masses
+ Surface Gravity     | 0.39 G
+ Surface Temperature | 183 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | A6IV.425.69
+ Mass        | 6.8 Solar Masses
+ Radius      | 3.68 Solar Radii
+ Temperature | 15400 K
+ Luminosity  | 2.8 x Solar Luminosity
+--------------------------------------------------------
+ Name                | A6IV.425.69-I Dwarf Planet
+ Semi Major Axis     | 0.5 AU
+ Orbital Period      | 0.35 Terran Years
+ Mass                | 0.23 Terran Masses
+ Surface Gravity     | 0.23 G
+ Surface Temperature | 591 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | A6IV.425.69-II Scorched World
+ Semi Major Axis     | 1.1 AU
+ Orbital Period      | 1.15 Terran Years
+ Mass                | 1.38 Terran Masses
+ Surface Gravity     | 1.24 G
+ Surface Temperature | 580 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M3V.426.69
+ Mass        | 0.35 Solar Masses
+ Radius      | 0.45 Solar Radii
+ Temperature | 3590 K
+ Luminosity  | 0.44 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M3V.426.69-I Dwarf Planet
+ Semi Major Axis     | 0.2 AU
+ Orbital Period      | 0.09 Terran Years
+ Mass                | 0.15 Terran Masses
+ Surface Gravity     | 0.1 G
+ Surface Temperature | 141 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | M3V.426.69-II Barren World
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 1.33 Terran Masses
+ Surface Gravity     | 0.93 G
+ Surface Temperature | 136 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | K5V.414.71
+ Mass        | 0.85 Solar Masses
+ Radius      | 0.9 Solar Radii
+ Temperature | 5100 K
+ Luminosity  | 0.6 x Solar Luminosity
+--------------------------------------------------------
+ Name                | K5V.414.71-I Dwarf Planet
+ Semi Major Axis     | 0.8 AU
+ Orbital Period      | 0.72 Terran Years
+ Mass                | 0.3 Terran Masses
+ Surface Gravity     | 0.39 G
+ Surface Temperature | 284 K
+ Atmosphere          | Nonexistent
+ Life                | Primitive
+----- ---- --- -- -
+ Name                | K5V.414.71-II Earthlike World
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.53 Terran Masses
+ Surface Gravity     | 1.68 G
+ Surface Temperature | 268 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | K7V.421.71
+ Mass        | 0.91 Solar Masses
+ Radius      | 0.94 Solar Radii
+ Temperature | 5340 K
+ Luminosity  | 0.76 x Solar Luminosity
+--------------------------------------------------------
+ Name                | K7V.421.71-I Dwarf Planet
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 0.35 Terran Masses
+ Surface Gravity     | 0.39 G
+ Surface Temperature | 243 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | F5IV.423.71
+ Mass        | 1.75 Solar Masses
+ Radius      | 1.5 Solar Radii
+ Temperature | 7250 K
+ Luminosity  | 2.5 x Solar Luminosity
+--------------------------------------------------------
+ Name                | F5IV.423.71-I Dwarf Planet
+ Semi Major Axis     | 0.3 AU
+ Orbital Period      | 0.16 Terran Years
+ Mass                | 0.17 Terran Masses
+ Surface Gravity     | 0.17 G
+ Surface Temperature | 426 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | F5IV.423.71-II Scorched World
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 0.57 Terran Masses
+ Surface Gravity     | 0.74 G
+ Surface Temperature | 412 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | F5IV.423.71-III Scorched World
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.19 Terran Masses
+ Surface Gravity     | 1.07 G
+ Surface Temperature | 400 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F5IV.423.71-IV Scorched World
+ Semi Major Axis     | 1.9 AU
+ Orbital Period      | 2.62 Terran Years
+ Mass                | 2.08 Terran Masses
+ Surface Gravity     | 2.5 G
+ Surface Temperature | 414 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F5IV.423.71-V Scorched World
+ Semi Major Axis     | 3.9 AU
+ Orbital Period      | 7.7 Terran Years
+ Mass                | 5.07 Terran Masses
+ Surface Gravity     | 4.06 G
+ Surface Temperature | 430 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | G6IV.416.72
+ Mass        | 1.3 Solar Masses
+ Radius      | 1.18 Solar Radii
+ Temperature | 6180 K
+ Luminosity  | 2.8 x Solar Luminosity
+--------------------------------------------------------
+ Name                | G6IV.416.72-I Dwarf Planet
+ Semi Major Axis     | 0.7 AU
+ Orbital Period      | 0.59 Terran Years
+ Mass                | 0.28 Terran Masses
+ Surface Gravity     | 0.34 G
+ Surface Temperature | 233 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.416.72-II Barren World
+ Semi Major Axis     | 1.3 AU
+ Orbital Period      | 1.48 Terran Years
+ Mass                | 0.76 Terran Masses
+ Surface Gravity     | 0.84 G
+ Surface Temperature | 225 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.416.72-III Barren World
+ Semi Major Axis     | 1.1 AU
+ Orbital Period      | 1.15 Terran Years
+ Mass                | 1.38 Terran Masses
+ Surface Gravity     | 1.38 G
+ Surface Temperature | 234 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.416.72-IV Barren World
+ Semi Major Axis     | 2.3 AU
+ Orbital Period      | 3.49 Terran Years
+ Mass                | 3.67 Terran Masses
+ Surface Gravity     | 3.3 G
+ Surface Temperature | 231 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | F6IV.421.72
+ Mass        | 1.8 Solar Masses
+ Radius      | 1.54 Solar Radii
+ Temperature | 7400 K
+ Luminosity  | 2.8 x Solar Luminosity
+--------------------------------------------------------
+ Name                | F6IV.421.72-I Dwarf Planet
+ Semi Major Axis     | 1.1 AU
+ Orbital Period      | 1.15 Terran Years
+ Mass                | 0.38 Terran Masses
+ Surface Gravity     | 0.34 G
+ Surface Temperature | 272 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | F6IV.421.72-II Earthlike World
+ Semi Major Axis     | 0.7 AU
+ Orbital Period      | 0.59 Terran Years
+ Mass                | 0.77 Terran Masses
+ Surface Gravity     | 0.92 G
+ Surface Temperature | 287 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F6IV.421.72-III Earthlike World
+ Semi Major Axis     | 1.5 AU
+ Orbital Period      | 1.84 Terran Years
+ Mass                | 2.48 Terran Masses
+ Surface Gravity     | 1.98 G
+ Surface Temperature | 290 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M6V.425.72
+ Mass        | 0.5 Solar Masses
+ Radius      | 0.6 Solar Radii
+ Temperature | 3980 K
+ Luminosity  | 0.68 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M6V.425.72-I Dwarf Planet
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 0.35 Terran Masses
+ Surface Gravity     | 0.35 G
+ Surface Temperature | 147 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | F4IV.420.73
+ Mass        | 1.7 Solar Masses
+ Radius      | 1.46 Solar Radii
+ Temperature | 7100 K
+ Luminosity  | 2.2 x Solar Luminosity
+--------------------------------------------------------
+ Name                | F4IV.420.73-I Dwarf Planet
+ Semi Major Axis     | 0.2 AU
+ Orbital Period      | 0.09 Terran Years
+ Mass                | 0.15 Terran Masses
+ Surface Gravity     | 0.12 G
+ Surface Temperature | 350 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.420.73-II Earthlike World
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 0.66 Terran Masses
+ Surface Gravity     | 0.79 G
+ Surface Temperature | 334 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.420.73-III Earthlike World
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 1.35 Terran Masses
+ Surface Gravity     | 1.21 G
+ Surface Temperature | 340 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.420.73-IV Earthlike World
+ Semi Major Axis     | 3.3 AU
+ Orbital Period      | 5.99 Terran Years
+ Mass                | 3.92 Terran Masses
+ Surface Gravity     | 5.1 G
+ Surface Temperature | 316 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M7IV.423.73
+ Mass        | 0.55 Solar Masses
+ Radius      | 0.65 Solar Radii
+ Temperature | 4110 K
+ Luminosity  | 3.1 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M7IV.423.73-I Dwarf Planet
+ Semi Major Axis     | 1.0 AU
+ Orbital Period      | 1.0 Terran Years
+ Mass                | 0.35 Terran Masses
+ Surface Gravity     | 0.35 G
+ Surface Temperature | 195 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | G3IV.425.74
+ Mass        | 1.15 Solar Masses
+ Radius      | 1.09 Solar Radii
+ Temperature | 5940 K
+ Luminosity  | 1.9 x Solar Luminosity
+--------------------------------------------------------
+ Name                | G3IV.425.74-I Dwarf Planet
+ Semi Major Axis     | 0.7 AU
+ Orbital Period      | 0.59 Terran Years
+ Mass                | 0.28 Terran Masses
+ Surface Gravity     | 0.22 G
+ Surface Temperature | 224 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | G3IV.425.74-II Barren World
+ Semi Major Axis     | 1.3 AU
+ Orbital Period      | 1.48 Terran Years
+ Mass                | 0.76 Terran Masses
+ Surface Gravity     | 0.91 G
+ Surface Temperature | 217 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G3IV.425.74-III Barren World
+ Semi Major Axis     | 1.1 AU
+ Orbital Period      | 1.15 Terran Years
+ Mass                | 1.38 Terran Masses
+ Surface Gravity     | 1.24 G
+ Surface Temperature | 226 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G3IV.425.74-IV Barren World
+ Semi Major Axis     | 2.3 AU
+ Orbital Period      | 3.49 Terran Years
+ Mass                | 3.67 Terran Masses
+ Surface Gravity     | 4.77 G
+ Surface Temperature | 223 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | K3V.418.75
+ Mass        | 0.79 Solar Masses
+ Radius      | 0.86 Solar Radii
+ Temperature | 4860 K
+ Luminosity  | 0.44 x Solar Luminosity
+--------------------------------------------------------
+ Name                | K3V.418.75-I Dwarf Planet
+ Semi Major Axis     | 0.8 AU
+ Orbital Period      | 0.72 Terran Years
+ Mass                | 0.3 Terran Masses
+ Surface Gravity     | 0.39 G
+ Surface Temperature | 183 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | K3V.418.75-II Barren World
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.53 Terran Masses
+ Surface Gravity     | 1.68 G
+ Surface Temperature | 180 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | G6IV.422.75
+ Mass        | 1.3 Solar Masses
+ Radius      | 1.18 Solar Radii
+ Temperature | 6180 K
+ Luminosity  | 2.8 x Solar Luminosity
+--------------------------------------------------------
+ Name                | G6IV.422.75-I Dwarf Planet
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 0.33 Terran Masses
+ Surface Gravity     | 0.43 G
+ Surface Temperature | 230 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.75-II Barren World
+ Semi Major Axis     | 1.8 AU
+ Orbital Period      | 2.41 Terran Years
+ Mass                | 0.8 Terran Masses
+ Surface Gravity     | 0.96 G
+ Surface Temperature | 217 K
+ Atmosphere          | Breathable
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.75-III Barren World
+ Semi Major Axis     | 2.9 AU
+ Orbital Period      | 4.94 Terran Years
+ Mass                | 1.49 Terran Masses
+ Surface Gravity     | 1.64 G
+ Surface Temperature | 205 K
+ Atmosphere          | Breathable
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.75-IV Barren World
+ Semi Major Axis     | 8.6 AU
+ Orbital Period      | 25.22 Terran Years
+ Mass                | 3.75 Terran Masses
+ Surface Gravity     | 3.75 G
+ Surface Temperature | 165 K
+ Atmosphere          | Breathable
+ Life                | None
+----- ---- --- -- -
+ Name                | G6IV.422.75-V Gas Giant
+ Semi Major Axis     | 25.1 AU
+ Orbital Period      | 125.75 Terran Years
+ Mass                | 10.38 Terran Masses
+ Surface Gravity     | 9.34 G
+ Surface Temperature | 159 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | K3V.424.75
+ Mass        | 0.79 Solar Masses
+ Radius      | 0.86 Solar Radii
+ Temperature | 4860 K
+ Luminosity  | 0.44 x Solar Luminosity
+--------------------------------------------------------
+ Name                | K3V.424.75-I Dwarf Planet
+ Semi Major Axis     | 0.8 AU
+ Orbital Period      | 0.72 Terran Years
+ Mass                | 0.3 Terran Masses
+ Surface Gravity     | 0.36 G
+ Surface Temperature | 183 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | K3V.424.75-II Barren World
+ Semi Major Axis     | 1.7 AU
+ Orbital Period      | 2.22 Terran Years
+ Mass                | 1.53 Terran Masses
+ Surface Gravity     | 1.22 G
+ Surface Temperature | 180 K
+ Atmosphere          | Breathable
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | M6V.413.76
+ Mass        | 0.5 Solar Masses
+ Radius      | 0.6 Solar Radii
+ Temperature | 3980 K
+ Luminosity  | 0.68 x Solar Luminosity
+--------------------------------------------------------
+ Name                | M6V.413.76-I Dwarf Planet
+ Semi Major Axis     | 0.9 AU
+ Orbital Period      | 0.85 Terran Years
+ Mass                | 0.33 Terran Masses
+ Surface Gravity     | 0.4 G
+ Surface Temperature | 147 K
+ Atmosphere          | Nonexistent
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | G8IV.418.76
+ Mass        | 1.4 Solar Masses
+ Radius      | 1.24 Solar Radii
+ Temperature | 6340 K
+ Luminosity  | 3.4 x Solar Luminosity
+--------------------------------------------------------
+ Name                | G8IV.418.76-I Dwarf Planet
+ Semi Major Axis     | 0.7 AU
+ Orbital Period      | 0.59 Terran Years
+ Mass                | 0.28 Terran Masses
+ Surface Gravity     | 0.34 G
+ Surface Temperature | 361 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | G8IV.418.76-II Barren World
+ Semi Major Axis     | 1.3 AU
+ Orbital Period      | 1.48 Terran Years
+ Mass                | 0.76 Terran Masses
+ Surface Gravity     | 0.84 G
+ Surface Temperature | 351 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G8IV.418.76-III Barren World
+ Semi Major Axis     | 1.1 AU
+ Orbital Period      | 1.15 Terran Years
+ Mass                | 1.38 Terran Masses
+ Surface Gravity     | 1.38 G
+ Surface Temperature | 368 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | G8IV.418.76-IV Barren World
+ Semi Major Axis     | 2.3 AU
+ Orbital Period      | 3.49 Terran Years
+ Mass                | 3.67 Terran Masses
+ Surface Gravity     | 3.3 G
+ Surface Temperature | 376 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------
+--------------------------------------------------------
+ Name        | F4IV.426.76
+ Mass        | 1.7 Solar Masses
+ Radius      | 1.46 Solar Radii
+ Temperature | 7100 K
+ Luminosity  | 2.2 x Solar Luminosity
+--------------------------------------------------------
+ Name                | F4IV.426.76-I Dwarf Planet
+ Semi Major Axis     | 1.4 AU
+ Orbital Period      | 1.66 Terran Years
+ Mass                | 0.45 Terran Masses
+ Surface Gravity     | 0.32 G
+ Surface Temperature | 321 K
+ Atmosphere          | Nonexistent
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.426.76-II Earthlike World
+ Semi Major Axis     | 1.5 AU
+ Orbital Period      | 1.84 Terran Years
+ Mass                | 0.64 Terran Masses
+ Surface Gravity     | 0.45 G
+ Surface Temperature | 323 K
+ Atmosphere          | Poisonous
+ Life                | Molecular
+----- ---- --- -- -
+ Name                | F4IV.426.76-III Earthlike World
+ Semi Major Axis     | 2.1 AU
+ Orbital Period      | 3.04 Terran Years
+ Mass                | 1.02 Terran Masses
+ Surface Gravity     | 0.71 G
+ Surface Temperature | 316 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.426.76-IV Earthlike World
+ Semi Major Axis     | 4.7 AU
+ Orbital Period      | 10.19 Terran Years
+ Mass                | 2.02 Terran Masses
+ Surface Gravity     | 1.41 G
+ Surface Temperature | 286 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.426.76-V Earthlike World
+ Semi Major Axis     | 8.3 AU
+ Orbital Period      | 23.91 Terran Years
+ Mass                | 3.51 Terran Masses
+ Surface Gravity     | 2.46 G
+ Surface Temperature | 272 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.426.76-VI Earthlike World
+ Semi Major Axis     | 16.9 AU
+ Orbital Period      | 69.48 Terran Years
+ Mass                | 6.82 Terran Masses
+ Surface Gravity     | 4.77 G
+ Surface Temperature | 282 K
+ Atmosphere          | Poisonous
+ Life                | None
+----- ---- --- -- -
+ Name                | F4IV.426.76-VII Gas Giant
+ Semi Major Axis     | 32.5 AU
+ Orbital Period      | 185.28 Terran Years
+ Mass                | 14.22 Terran Masses
+ Surface Gravity     | 9.95 G
+ Surface Temperature | 397 K
+ Atmosphere          | Poisonous
+ Life                | None
+--------------------------------------------------------

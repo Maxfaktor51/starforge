@@ -1,23 +1,27 @@
-from colorama import Fore,Back,Style
 import os
 import sys
-
+import map
 import stargen
 import fancymaker
 
+from colorama import Fore,Back,Style
+
+# Clear the console
 os.system ("cls||clear")
+
 mode = "m"
 n = 0
 starQueueX = [0]
 starQueueY = [0]
+starQueue = [starQueueX, starQueueY]
 
 while mode != "q":
     match mode:
         case "m":
             fancymaker.head("m")
-            print("Welcome to Starforge v0.5\n")
+            print("Welcome to Starforge v0.7\n")
             realm = int(input("Please enter a Realm ID:" + Fore.YELLOW + " "))
-            print(Fore.GREEN + "(n)ew Star " + Fore.RED + "(q)uit")
+            print(Fore.GREEN + "(n)ew star " + Fore.YELLOW + "(s)earch for life " + "(v)iew starmap " + Fore.RED + "(q)uit")
             print(Style.RESET_ALL)
         case "n":
             print("Realm ID: " + str(realm))
@@ -80,6 +84,18 @@ while mode != "q":
                     j += 1
                 j = jmin
                 i += 1
+            fancymaker.reducedOptions()
+        case "v":
+            xStart = int(input("Please enter the central X coordinate:" + Fore.YELLOW + " "))
+            yStart = int(input(Fore.RESET + "Please enter the central Y coordinate:" + Fore.YELLOW + " "))
+            viewSize = int(input(Fore.RESET + "Please enter the size of the map:" + Fore.YELLOW + " "))
+            print(Fore.RESET)
+            fancymaker.head("m")
+            newStar = "Map-" + str(xStart) + "_" + str(yStart) + "-R" + str(viewSize)
+            starQueue = map.starMap(realm,xStart,yStart,viewSize)
+            starQueueX = starQueue[0]
+            starQueueY = starQueue[1]
+            fancymaker.reducedOptions()
  
     mode = input()
     fancymaker.separator(mode)

@@ -29,6 +29,9 @@ def head(mode):
 def mainOptions():
     print(Fore.YELLOW + "(n)ew star (a)dd star " + Fore.BLUE + "(e)xport " + Fore.WHITE + "(m)enu " + Fore.RED + "(q)uit" + Style.RESET_ALL)
 
+def reducedOptions():
+    print(Fore.YELLOW + "(n)ew star " + Fore.BLUE + "(e)xport " + Fore.WHITE + "(m)enu " + Fore.RED + "(q)uit" + Style.RESET_ALL)
+
 def write_roman(num):
 
     roman = OrderedDict()
