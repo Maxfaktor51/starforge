@@ -1,7 +1,33 @@
 import art
-from colorama import Fore,Back,Style
+from colorama import Fore,Style
 from collections import OrderedDict
 import os
+
+def head(mode):
+    match mode:
+        case "e":
+            os.system("cls||clear")
+            art.tprint("Starforge")
+        case "i":
+            print(Style.RESET_ALL)
+            os.system("cls||clear")
+            art.tprint("Starforge")
+            separator(mode)
+            print("Welcome to Starforge v0.8\nby Maximilian Kaulfuss  -  https://maxfaktor51.github.io\n\n\n\n\n\n")
+            options(mode)
+            separator(mode)
+        case "n":
+            print(Style.RESET_ALL)
+            os.system("cls||clear")
+            art.tprint("Starforge")
+            separator(mode)
+            print(Fore.YELLOW + "New Galaxy Map Editor")
+            separator(mode)
+        case _:
+            print(Style.RESET_ALL)
+            os.system("cls||clear")
+            art.tprint("Starforge")
+            separator(mode)
 
 def separator(mode):
     if mode == "e":
@@ -15,21 +41,22 @@ def semi_separator(mode):
     else:
         print(Style.RESET_ALL + "----- ---- --- -- -")
 
-def head(mode):
-    if mode == "e":
-        os.system("cls||clear")
-        art.tprint("Starforge")
-    else:
-        print(Style.RESET_ALL)
-        os.system("cls||clear")
-        art.tprint("Starforge")
-        separator(mode)
-
-def mainOptions():
-    print(Fore.YELLOW + "(n)ew star (a)dd star " + Fore.BLUE + "(e)xport " + Fore.WHITE + "(m)enu " + Fore.RED + "(q)uit" + Style.RESET_ALL)
-
-def reducedOptions():
-    print(Fore.YELLOW + "(n)ew star " + Fore.BLUE + "(e)xport " + Fore.WHITE + "(m)enu " + Fore.RED + "(q)uit" + Style.RESET_ALL)
+def options(type):
+    match type:
+        case "i": #initial
+            print(Fore.YELLOW + "(n)ew map  " 
+                  + Fore.BLUE + "(l)oad map  " 
+                  + Fore.RED + "(q)uit" + Style.RESET_ALL)
+        case "m": #main options
+            print(Fore.YELLOW + "(c)hange map  " 
+                  + Fore.BLUE + "(v)iew star  (p)rint  (s)eti  " 
+                  + Fore.RED + "(q)uit" + Style.RESET_ALL)
+        case "n": #new map options
+            print(Fore.YELLOW + "(r)andom  "
+                  + Fore.RED + "(b)ack  " 
+                  + Fore.BLUE + "(p)review  "
+                  + Fore.GREEN + "(c)onfirm  " 
+                  + Fore.WHITE + "(m)enu" + Style.RESET_ALL)
 
 def write_roman(num):
 
