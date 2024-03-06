@@ -139,14 +139,14 @@ def removeClusters(width, height, img):
     for y in range(height-1):
         for x in range(width-1):
             if px[x,y] != (0,0,0,0):
-                px[x-1,y-1] = (0,0,0,0)
+                #px[x-1,y-1] = (0,0,0,0)
                 px[x  ,y-1] = (0,0,0,0)
-                px[x+1,y-1] = (0,0,0,0)
+                #px[x+1,y-1] = (0,0,0,0)
                 px[x-1,y  ] = (0,0,0,0)
                 px[x+1,y  ] = (0,0,0,0)
-                px[x-1,y+1] = (0,0,0,0)
+                #px[x-1,y+1] = (0,0,0,0)
                 px[x  ,y+1] = (0,0,0,0)
-                px[x+1,y+1] = (0,0,0,0)
+                #px[x+1,y+1] = (0,0,0,0)
     return img
 
 
