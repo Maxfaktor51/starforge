@@ -16,7 +16,7 @@ def getSeed(gName):
     seed = 0
     # get seed by adding up ASCII values
     for i in range(len(gName)):
-        seed += ord(gName[i])
+        seed += (ord(gName[i])*i+1)
     return seed
 
 def pol2cart(rho, theta):
@@ -119,6 +119,21 @@ def addFrame(seed, parameters, width, height, map):
     map = Image.composite(map, blank, mask)
     return map
 
+def removeClusters(width, height, map):
+    px = map.load()
+    for y in range(height):
+        for x in range(width):
+            if px[x,y] != (0,0,0):
+                px[x-1,y-1] = (0,0,0)
+                px[x  ,y-1] = (0,0,0)
+                px[x+1,y-1] = (0,0,0)
+                px[x-1,y  ] = (0,0,0)
+                px[x+1,y  ] = (0,0,0)
+                px[x-1,y+1] = (0,0,0)
+                px[x  ,y+1] = (0,0,0)
+                px[x+1,y+1] = (0,0,0)
+    return map
+
 def map(gName, gSize, nArms, gAge, mode):
     # create blank map
     match gSize:
@@ -135,7 +150,7 @@ def map(gName, gSize, nArms, gAge, mode):
     # initialise parameters
     parameters = [nArms,                          # 0 - number of spiral arms
                   round(width*nArms*0.1),         # 1 - length of spiral arms
-                  round((nArms*width*width)/50), # 2 - number of stars (some may get covered up by the frame in the final map)
+                  round((nArms*width*width)/50),  # 2 - number of stars (some may get covered up by the frame in the final map)
                   gAge,                           # 3 - age of galaxy (cloud to spiral ratio)
                   np.pi*nArms,                    # 4 - angle scalar
                   1.66+nArms*0.01,                # 5 - armOffset scalar
@@ -152,7 +167,8 @@ def map(gName, gSize, nArms, gAge, mode):
             map = addGauss(seed+j, parameters, width, height, map, j)
     if mode == "c":
         map = addFrame(seed, parameters, width, height, map)
-        map.save(gName+".png")
+        map = removeClusters(width, height, map)
+        map.save('./galaxies/'+gName+'.png')
         map.show(gName+".png")
     else:
         map.show()

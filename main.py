@@ -14,14 +14,24 @@ n = 0
 starQX = [0]
 starQY = [0]
 starQ = [starQX, starQY]
+galaxyName = "-"
+galaxyArms = 0
+galaxySize = "M"
+galaxyAge = 0
 
 # Main loop
 while mode != "q":
     match mode:
-        case "i": # Initialise / Change Map
+        case "i" | "c": # Initialise / Change Map
             fancymaker.head("i")
         case "m": # Main Menu
             fancymaker.head("m")
+            if galaxyName == "-":
+                print(Fore.RED + "Error loading map\n" + Style.RESET_ALL)
+            else:
+                print(Fore.YELLOW, galaxyName, Style.RESET_ALL + "selected\n")
+            fancymaker.options("m")
+            fancymaker.separator("m")
         case "n": # New Map
             # Reset Edtor
             i = 0
@@ -47,7 +57,7 @@ while mode != "q":
                             case "r": # random name
                                 galaxyName = "G" + str(np.random.randint(0, 1000)) + "-" + str(np.random.randint(0, 1000))
                                 i += 1
-                            case "p" | "c": # preview or create map
+                            case "p": # preview or create map
                                 mapgen.map(galaxyName, galaxySize, galaxyArms, galaxyAge, userInput)
                             case "m": # quit to main menu
                                 mode = "m"
@@ -71,7 +81,7 @@ while mode != "q":
                                 i += 1
                             case "b": # go back
                                 i -= 1
-                            case "p" | "c": # preview or create map
+                            case "p": # preview or create map
                                 mapgen.map(galaxyName, galaxySize, galaxyArms, galaxyAge, userInput)
                             case "":  # jump to next
                                 i += 1
@@ -92,7 +102,7 @@ while mode != "q":
                                 i += 1
                             case "b": # go back
                                 i -= 1
-                            case "p" | "c": # preview or create map
+                            case "p": # preview or create map
                                 mapgen.map(galaxyName, galaxySize, galaxyArms, galaxyAge, userInput)
                             case "m": # quit to main menu
                                 mode = "m"
@@ -110,7 +120,7 @@ while mode != "q":
                                 i += 1
                             case "b": # go back
                                 i -= 1
-                            case "p" | "c": # preview or create map
+                            case "p": # preview or create map
                                 mapgen.map(galaxyName, galaxySize, galaxyArms, galaxyAge, userInput)
                             case "m": # quit to main menu
                                 mode = "m"
@@ -121,9 +131,14 @@ while mode != "q":
                                 galaxyAge = int(userInput)
                                 i += 1
                     case 4: # Done
-                        userInput = input("All set! Would you like to " + Fore.YELLOW + "(c)reate " + Style.RESET_ALL + "or " + Fore.YELLOW + "(p)review" + Style.RESET_ALL + "? ")
+                        userInput = input("All set! You can now " + Fore.YELLOW + "(c)reate " + Style.RESET_ALL + "the map. ")
                         match userInput:
-                            case "p" | "c": # preview or create map
+                            case "c": # preview or create map
+                                mapgen.map(galaxyName, galaxySize, galaxyArms, galaxyAge, userInput)
+                                print("\n" + Fore.YELLOW, galaxyName, Style.RESET_ALL + " has been successfully created!")
+                                mode = "m"
+                                skip2Menu = 1
+                            case "p":
                                 mapgen.map(galaxyName, galaxySize, galaxyArms, galaxyAge, userInput)
                             case "b": # go back
                                 i -= 1
@@ -133,7 +148,29 @@ while mode != "q":
                             case _:   # error message
                                 print("Error: invalid input")
         case "l": # Load Map
+            check = 0
             fancymaker.head("l")
+            files = os.listdir('./galaxies')
+            for file_name in files:
+                print(file_name)
+            fancymaker.separator("l")
+            galaxyName = input("Which map would you like to load?" + Fore.BLUE + " ")
+            for file_name in files:
+                if galaxyName+".png" == file_name:
+                    check += 1
+            while check != 1:
+                fancymaker.head("l")
+                files = os.listdir('./galaxies')
+                for file_name in files:
+                    print(file_name)
+                fancymaker.separator("l")
+                if check > 1 or check == 0:
+                    print(Fore.RED + "Input Error. Pleasy try again." + Style.RESET_ALL)
+                galaxyName = input("Which map would you like to load?" + Fore.BLUE + " ")
+                for file_name in files:
+                    if galaxyName+".png" == file_name:
+                        check += 1            
+            skip2Menu = 1
         case "v": # View Star
             fancymaker.head("v")
         case "p": # Print ALL stars

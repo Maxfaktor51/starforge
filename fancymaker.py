@@ -16,6 +16,19 @@ def head(mode):
             print("Welcome to Starforge v0.8\nby Maximilian Kaulfuss  -  https://maxfaktor51.github.io\n\n\n\n\n\n")
             options(mode)
             separator(mode)
+        case "l":
+            print(Style.RESET_ALL)
+            os.system("cls||clear")
+            art.tprint("Starforge")
+            separator(mode)
+            print(Fore.BLUE + "Load Galaxy Map")
+            separator(mode)
+        case "m":
+            print(Style.RESET_ALL)
+            os.system("cls||clear")
+            art.tprint("Starforge")
+            separator(mode)
+            print("Welcome to Starforge v0.8  https://maxfaktor51.github.io\n\n\n\n\n")
         case "n":
             print(Style.RESET_ALL)
             os.system("cls||clear")
@@ -55,7 +68,6 @@ def options(type):
             print(Fore.YELLOW + "(r)andom  "
                   + Fore.RED + "(b)ack  " 
                   + Fore.BLUE + "(p)review  "
-                  + Fore.GREEN + "(c)onfirm  " 
                   + Fore.WHITE + "(m)enu" + Style.RESET_ALL)
 
 def write_roman(num):

@@ -1,4 +1,4 @@
-from PIL import Image
+from PIL import Image, ImageFilter, ImageEnhance
 import numpy as np
 
 # Parameters
@@ -26,13 +26,13 @@ preset1 = [0, 0, 0, 0, np.pi*nArms, 1.66+nArms*0.01, 10/(nArms*2), nArms*0.075+a
 
 parameters = preset1
 
-cO_color = (146, 181, 255)
-cB_color = (162, 192, 255)
-cA_color = (213, 224, 255)
-cF_color = (249, 245, 255)
-cG_color = (255, 237, 227)
-cK_color = (255, 218, 181)
-cM_color = (255, 182, 108) 
+cO_color = (146, 181, 255, 255)
+cB_color = (162, 192, 255, 255)
+cA_color = (213, 224, 255, 255)
+cF_color = (249, 245, 255, 255)
+cG_color = (255, 237, 227, 255)
+cK_color = (255, 218, 181, 255)
+cM_color = (255, 182, 108, 255) 
 
 # Functions
 def pol2cart(rho, theta):
@@ -116,7 +116,7 @@ def addGauss(seed, parameters, width, height, nStars, img):
 
 def addFrame(seed, width, height, nStars, img):
     np.random.seed(seed)
-    blank = Image.new('RGB', img.size, (0,0,0))
+    blank = Image.new('RGBA', img.size, (0,0,0,0))
     mask = Image.new('L', img.size, 0)
     centerX = width / 2
     centerY = height / 2
@@ -134,11 +134,34 @@ def addFrame(seed, width, height, nStars, img):
     img = Image.composite(img, blank, mask)
     return img
 
+def removeClusters(width, height, img):
+    px = img.load()
+    for y in range(height-1):
+        for x in range(width-1):
+            if px[x,y] != (0,0,0,0):
+                px[x-1,y-1] = (0,0,0,0)
+                px[x  ,y-1] = (0,0,0,0)
+                px[x+1,y-1] = (0,0,0,0)
+                px[x-1,y  ] = (0,0,0,0)
+                px[x+1,y  ] = (0,0,0,0)
+                px[x-1,y+1] = (0,0,0,0)
+                px[x  ,y+1] = (0,0,0,0)
+                px[x+1,y+1] = (0,0,0,0)
+    return img
+
+
 # Main
-img = Image.new('RGB', (width, height), (0,0,0))
+img = Image.new('RGBA', (width, height), (0,0,0,0))
 for i in range(2):
     if nArms-i > 0:
         img = addSpiral(seed+i, parameters, width, height, nArms-i, armLength, round(nStars*(age*0.1)), img)
 img = addGauss(seed, parameters, width, height, round(nStars*(1-age*0.1)*0.5), img)
 img = addFrame(seed, width, height, round(nStars), img)
+img = removeClusters(width, height, img)
+blur = img.filter(ImageFilter.GaussianBlur(3))
+blank = Image.new('RGB', img.size, (0,0,0))
+mask = Image.new('L', img.size, 255)
+postP = Image.composite(blur, blank, mask)
+postP = Image.composite(img, postP, mask)
+postP.save('newGalaxyFX.png')
 img.save('newGalaxy.png')
