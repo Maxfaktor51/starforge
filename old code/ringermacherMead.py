@@ -3,6 +3,18 @@
 import numpy as np
 from PIL import Image, ImageDraw
 
+# define colours
+cO_color = (146, 181, 255, 255)
+cB_color = (162, 192, 255, 255)
+cA_color = (213, 224, 255, 255)
+cF_color = (249, 245, 255, 255)
+cG_color = (255, 237, 227, 255)
+cK_color = (255, 218, 181, 255)
+cM_color = (255, 182, 108, 255)
+
+width  = 1000
+height = 1000
+
 def addSpiral(map, tMax, A, B, N, angO, decay):
     centerX = map.size[0] / 2
     centerY = map.size[1] / 2
@@ -105,65 +117,55 @@ def removeClusters(map):
                 px[x+1,y+1] = (0,0,0,255)
     return map
 
-# define colours
-cO_color = (146, 181, 255, 255)
-cB_color = (162, 192, 255, 255)
-cA_color = (213, 224, 255, 255)
-cF_color = (249, 245, 255, 255)
-cG_color = (255, 237, 227, 255)
-cK_color = (255, 218, 181, 255)
-cM_color = (255, 182, 108, 255)
+def runRM():
+    # create empty map
+    map = Image.new('RGBA', (width, height), (0,0,0,255))
 
-# create empty map
-width  = 1000
-height = 1000
-map = Image.new('RGBA', (width, height), (0,0,0,255))
+    # Formula:   r(phi) = A / log(B * tan(phi / 2*N))
+    # using paramaters
+    A = width/10            # scale
+    B = 2                   # arm sweep
+    N = 11                   # tightness
 
-# Formula:   r(phi) = A / log(B * tan(phi / 2*N))
-# using paramaters
-A = width/10            # scale
-B = 2                   # arm sweep
-N = 11                   # tightness
+    # additional parameters
+    nArms = 2               # number of arms
+    decay = 200             # how slowly an arm will vanish               
+    chaos = 0               # how chaotic the galaxy looks (set 0 if undesired)
 
-# additional parameters
-nArms = 3               # number of arms
-decay = 3              # how slowly an arm will vanish               
-chaos = 2               # how chaotic the galaxy looks (set 0 if undesired)
+    # derived parameters
+    tMax   = width*2          # steps per arm
+    angO   = (2*3.14)/nArms   # angular offset between arms
+    sigma  = 100                # Gaussian distribution modifier
+    sigma2 = 100                # Frame modifier
+    nStars = (width*width)/64 # Number of rogue stars
 
-# derived parameters
-tMax   = width*2          # steps per arm
-angO   = (2*3.14)/nArms   # angular offset between arms
-sigma  = 100                # Gaussian distribution modifier
-sigma2 = 100                # Frame modifier
-nStars = (width*width)/64 # Number of rogue stars
-
-# create galaxy
-if chaos == 0:
-    for i in range(round(decay)):
-        for j in range(nArms):
-                map = addSpiral(map, tMax, A, B, N, angO*j+(i*0.01), (i+1)*0.1)
-else:
-    nArms = nArms+chaos
-    for k in range(nArms):
-        for i in range(round(decay*(k+1))):
+    # create galaxy
+    if chaos == 0:
+        for i in range(round(decay)):
             for j in range(nArms):
-                    angO  = ((2*3.14)/nArms)+(k*j)
-                    map = addSpiral(map, tMax, A, B+(chaos*0.01), N+(chaos*0.01), angO*j+(i*0.01), (i+1)*0.1)
-    print("Adding spirals ", k, "of", nArms)
-    nArms -= 1
-print("Spirals complete")
+                    map = addSpiral(map, tMax, A, B, N, angO*j+(i*0.01), (i+1)*0.1)
+    else:
+        nArms = nArms+chaos
+        for k in range(nArms):
+            for i in range(round(decay*(k+1))):
+                for j in range(nArms):
+                        angO  = ((2*3.14)/nArms)+(k*j)
+                        map = addSpiral(map, tMax, A, B+(chaos*0.01), N+(chaos*0.01), angO*j+(i*0.01), (i+1)*0.1)
+        print("Adding spirals ", k, "of", nArms)
+        nArms -= 1
+    print("Spirals complete")
 
-# add rogue stars
-map = addGauss(map, sigma, nStars)
-map = addGauss(map, sigma/3, nStars/2)
-map = addGauss(map, sigma/6, nStars/4)
-print("Gauss complete")
+    # add rogue stars
+    map = addGauss(map, sigma, nStars)
+    map = addGauss(map, sigma/3, nStars/2)
+    map = addGauss(map, sigma/6, nStars/4)
+    print("Gauss complete")
 
-# add frame
-map = addFrame(map, sigma2, nStars)
-print("Frame complete")
-map.save('ringermacher.png')
+    # add frame
+    map = addFrame(map, sigma2, nStars)
+    print("Frame complete")
+    map.save('ringermacher.png')
 
-# decluster
-map = removeClusters(map)
-map.save('loose_ringermacher.png')
+    # decluster
+    map = removeClusters(map)
+    map.save('loose_ringermacher.png')
